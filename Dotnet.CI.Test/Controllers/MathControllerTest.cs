@@ -32,7 +32,7 @@ public class MathControllerTest
 
         Assert.NotNull(result);
         Assert.Equal(200, result.StatusCode);
-        Assert.Equal(Convert.ToDecimal(result.Value), 3);
+        Assert.Equal(3, Convert.ToDecimal(result.Value));
     }
 
     [Fact]
@@ -42,7 +42,7 @@ public class MathControllerTest
 
         Assert.NotNull(result);
         Assert.Equal(200, result.StatusCode);
-        Assert.Equal(Convert.ToDecimal(result.Value), 6);
+        Assert.Equal(6, Convert.ToDecimal(result.Value));
     }
 
     [Fact]
@@ -52,7 +52,7 @@ public class MathControllerTest
 
         Assert.NotNull(result);
         Assert.Equal(200, result.StatusCode);
-        Assert.Equal(Convert.ToDecimal(result.Value), 3);
+        Assert.Equal(3, Convert.ToDecimal(result.Value));
     }
 
     [Fact]
