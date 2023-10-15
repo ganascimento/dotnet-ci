@@ -17,7 +17,7 @@ public class MathServiceTest
     {
         var result = _mathService.Sum(1, 2);
 
-        Assert.Equal(result, 3);
+        Assert.Equal(3, result);
     }
 
     [Fact]
@@ -25,7 +25,7 @@ public class MathServiceTest
     {
         var result = _mathService.Sub(3, 1);
 
-        Assert.Equal(result, 2);
+        Assert.Equal(2, result);
     }
 
     [Fact]
@@ -33,7 +33,7 @@ public class MathServiceTest
     {
         var result = _mathService.Mult(4, 3);
 
-        Assert.Equal(result, 12);
+        Assert.Equal(12, result);
     }
 
     [Fact]
@@ -41,7 +41,7 @@ public class MathServiceTest
     {
         var result = _mathService.Div(10, 2);
 
-        Assert.Equal(result, 5);
+        Assert.Equal(5, result);
     }
 
     [Fact]

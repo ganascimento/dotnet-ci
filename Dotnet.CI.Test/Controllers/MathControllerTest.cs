@@ -21,8 +21,8 @@ public class MathControllerTest
         var result = _controller.Sum(1, 2) as OkObjectResult;
 
         Assert.NotNull(result);
-        Assert.Equal(result.StatusCode, 200);
-        Assert.Equal(Convert.ToDecimal(result.Value), 3);
+        Assert.Equal(200, result.StatusCode);
+        Assert.Equal(3, Convert.ToDecimal(result.Value));
     }
 
     [Fact]
@@ -31,7 +31,7 @@ public class MathControllerTest
         var result = _controller.Sub(5, 2) as OkObjectResult;
 
         Assert.NotNull(result);
-        Assert.Equal(result.StatusCode, 200);
+        Assert.Equal(200, result.StatusCode);
         Assert.Equal(Convert.ToDecimal(result.Value), 3);
     }
 
@@ -41,7 +41,7 @@ public class MathControllerTest
         var result = _controller.Mult(3, 2) as OkObjectResult;
 
         Assert.NotNull(result);
-        Assert.Equal(result.StatusCode, 200);
+        Assert.Equal(200, result.StatusCode);
         Assert.Equal(Convert.ToDecimal(result.Value), 6);
     }
 
@@ -51,7 +51,7 @@ public class MathControllerTest
         var result = _controller.Div(6, 2) as OkObjectResult;
 
         Assert.NotNull(result);
-        Assert.Equal(result.StatusCode, 200);
+        Assert.Equal(200, result.StatusCode);
         Assert.Equal(Convert.ToDecimal(result.Value), 3);
     }
 
