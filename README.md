@@ -1,3 +1,5 @@
+[![.NET](https://github.com/ganascimento/dotnet-ci/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ganascimento/dotnet-ci/actions/workflows/dotnet.yml)
+
 # Dotnet CI
 
 This project was developed to test the CI implementation, with test analysis and SonarQube
