@@ -2,7 +2,7 @@
 
 # Dotnet CI
 
-This project was developed to test the CI implementation, with test analysis and SonarQube
+This project was developed to test the CI implementation, with test analysis and SonarCloud
 
 ## Resources used
 
