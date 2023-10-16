@@ -1,0 +1,4 @@
+sonar.projectKey=ganascimento_dotnet-ci
+sonar.organization=ganascimento
+sonar.projectName=dotnet-ci
+sonar.projectVersion=1.0
