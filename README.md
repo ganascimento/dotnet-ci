@@ -18,3 +18,11 @@ Continuous Integration (CI) is a software development practice where code change
 <p align="center">
   <img src="./assets/cicd.png" width="500" />
 </p>
+
+## And SonarCloud?
+
+SonarCloud is a cloud-based platform for continuous code quality inspection and software development. It integrates with popular programming languages and version control systems, analyzing code for bugs, security vulnerabilities, and maintainability issues. Developers and teams use SonarCloud to automate code reviews and maintain high software quality standards throughout the development process. It provides actionable insights and recommendations, enabling faster error detection and code improvement, ultimately enhancing the reliability and security of software projects. SonarCloud plays a crucial role in improving code quality and reducing technical debt, leading to more efficient and robust software development practices.
+
+<p align="start">
+  <img src="./assets/sonar.png" width="100" />
+</p>
